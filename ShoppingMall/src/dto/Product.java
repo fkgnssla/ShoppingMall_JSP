@@ -6,14 +6,14 @@ public class Product implements Serializable {
 
 	private static final long serialVersionUID = -4274700572038677000L;
 
-	private String productId;
-	private String pname;
-	private Integer unitPrice;
-	private String description;
-	private String manufacturer;
-	private String category;
-	private long unitsInStock;
-	private String condition;
+	private String productId; //상품코드
+	private String pname; //제품이름
+	private Integer unitPrice; //가격
+	private String description; //상세정보
+	private String manufacturer; //제조사
+	private String category; //분류
+	private long unitsInStock; //재고수량
+	private String condition; //상태
 
 	public Product() {
 		super();
